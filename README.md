@@ -13,10 +13,10 @@ Dockerfile for an image with the Cloud Foundry CLI and plugins for blue-green de
 
 ## Download
 
-This image is published to [Docker Hub](https://hub.docker.com/r/ppiper/cf-cli) and can be pulled via the command
+This image is published to [Docker Hub](https://hub.docker.com/r/alunde/cf-cli-ci) and can be pulled via the command
 
 ```
-docker pull ppiper/cf-cli
+docker pull alunde/cf-cli-ci
 ```
 
 ## Build
@@ -24,7 +24,7 @@ docker pull ppiper/cf-cli
 To build this image locally, open a terminal in the directory of the Dockerfile and run
 
 ```
-docker build -t ppiper/cf-cli .
+docker build -t alunde/cf-cli-ci .
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ Recommended usage of this image is via [`cloudFoundryDeploy`](https://sap.github
 For using the `cf` tool via this image, it can be invoked like in this command
 
 ```
-docker run ppiper/cf-cli cf --help
+docker run alunde/cf-cli-ci cf --help
 ```
 
 ## Testing
